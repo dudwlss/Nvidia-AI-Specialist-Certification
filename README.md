@@ -36,7 +36,7 @@ REAL-TIME SAFETY HELMET DETECTION SYSTEM USING YOLO FOR CONSTRUCTION SITE SAFETY
 # General description of the current project
 
 <aside>
-✅ - This project develops an AI-powered real-time monitoring system using the YOLOv5 deep learning model to detect safety helmet usage among construction workers. The system identifies and tracks three key elements: safety helmets, enabling automatic compliance verification with safety regulations.
+✅ - This project develops an AI-powered real-time monitoring system using the YOLOv5 deep learning model to detect safety helmet usage among construction workers. The system identifies and tracks key elements: safety helmets, enabling automatic compliance verification with safety regulations.
 
 </aside>
 
