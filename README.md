@@ -90,7 +90,7 @@ REAL-TIME SAFETY HELMET DETECTION SYSTEM USING YOLO FOR CONSTRUCTION SITE SAFETY
 ![스크린샷 2024-11-27 211828](https://github.com/user-attachments/assets/36de3ae2-b25a-47f7-9dbd-bddf2ea1a71f)
 
 
-### Find the ping pong ball dataset and download the yolov5 dataset.
+### Find the hard hat dataset and download the yolov5 dataset.
 
 ![스크린샷 2024-11-27 211900](https://github.com/user-attachments/assets/e0ee67a6-3ddd-454a-b814-84bc4539fadf)
 ![스크린샷 2024-11-27 211925](https://github.com/user-attachments/assets/6ec875a0-6cbc-4e56-8dbe-4b5d91a511c0)
@@ -117,7 +117,7 @@ REAL-TIME SAFETY HELMET DETECTION SYSTEM USING YOLO FOR CONSTRUCTION SITE SAFETY
 
 ### You need to modify the data.yml file you received from roboflow
 
-![스크린샷 2024-11-27 211957](https://github.com/user-attachments/assets/abee7f36-5ac8-4c9a-a3a0-b495a1ddd768)
+![스크린샷 2024-11-29 155431](https://github.com/user-attachments/assets/f67e9dbf-ddf8-4f0a-b50e-61fd42ed961d)
 
 ![스크린샷(46)](https://github.com/user-attachments/assets/1684c4dc-ea7b-41a1-8a93-f866c1369c4e)
 ### You can put it in like the pictures above
@@ -141,15 +141,16 @@ REAL-TIME SAFETY HELMET DETECTION SYSTEM USING YOLO FOR CONSTRUCTION SITE SAFETY
 
 ### 7. learning outcome
 
-![스크린샷 2024-11-27 213920](https://github.com/user-attachments/assets/73b891c6-4927-4633-9941-6e6ad83940d8)
+![스크린샷 2024-11-29 155642](https://github.com/user-attachments/assets/5e618389-23db-4da7-b993-5b5f543d7131)
 
-![스크린샷 2024-11-27 214135](https://github.com/user-attachments/assets/aeae705f-3ec4-4e4d-a0e5-938135010d62)
+![스크린샷 2024-11-29 155647](https://github.com/user-attachments/assets/0a2838f3-b8e0-48a1-b4bf-601ef9eafe84)
 
-![스크린샷 2024-11-27 214140](https://github.com/user-attachments/assets/3775c6ae-603d-4cae-8576-e665a010effb)
+![스크린샷 2024-11-29 155650](https://github.com/user-attachments/assets/c5be30da-cca7-4a94-887d-8e65b6207d40)
 
-![스크린샷 2024-11-27 214144](https://github.com/user-attachments/assets/593c7ec1-b660-47a4-ac33-ceb68626e203)
+![스크린샷 2024-11-29 155654](https://github.com/user-attachments/assets/26c49fdd-5ced-4f16-bca2-3f8066514e4c)
 
-![스크린샷 2024-11-27 214149](https://github.com/user-attachments/assets/ef790276-450f-4954-9490-9e93b3c8fb91)
+![스크린샷 2024-11-29 155622](https://github.com/user-attachments/assets/c8656ca4-a1b5-4eb1-a257-e42a48b79408)
+
 
 ### 8. Validate model results
 python detect.py --weight runs/train/exp/weights/best.pt --source [Path of the image to be tested] --img 640 --conf 0.8
